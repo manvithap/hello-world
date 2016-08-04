@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Studiomovement';
+	public $sitename = '';
 	public $editor = 'codemirror';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -15,7 +15,7 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'root';
 	public $password = '';
-	public $db = 'studiomovement';
+	public $db = '';
 	public $dbprefix = 'sm_';
 	public $live_site = '';
 	public $secret = '9uMtbXMbBxZRZIvK';
@@ -53,8 +53,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = 'D:\projects\Samran_Projects\studiomovement\source\logs';
-	public $tmp_path = 'D:\projects\Samran_Projects\studiomovement\source\tmp';
+	public $log_path = '\logs';
+	public $tmp_path = '\tmp';
 	public $lifetime = '15';
 	public $session_handler = 'none';
 	public $MetaRights = '';
